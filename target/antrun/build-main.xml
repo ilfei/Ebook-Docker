@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<project name="maven-antrun-" default="main"  >
+<target name="main">
+  <replace dir="C:\Users\xzhao24\Desktop\Ebook/target/classes/apidocs/raml" value="baseUri: http://localhost:{http.port}" token="baseUri: http://api.e-bookmobile.com/{version}">
+    <include name="**/*.raml"/>
+  </replace>
+  <replace dir="C:\Users\xzhao24\Desktop\Ebook/target/classes/apidocs/raml" value="protocols: [ HTTP ]" token="protocols: [ HTTPS ]">
+    <include name="**/*.raml"/>
+  </replace>
+</target>
+</project>

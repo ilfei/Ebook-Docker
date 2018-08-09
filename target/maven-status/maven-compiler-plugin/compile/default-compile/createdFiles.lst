@@ -1,0 +1,6 @@
+org\folio\rest\jaxrs\resource\support\ResponseWrapper.class
+org\folio\rest\jaxrs\resource\EbooksResource$GetEbooksByBookTitleResponse.class
+org\folio\rest\jaxrs\model\Book.class
+org\folio\rest\jaxrs\model\Bookdata.class
+org\folio\rest\jaxrs\resource\EbooksResource.class
+org\folio\rest\jaxrs\resource\EbooksResource$PutEbooksByBookTitleResponse.class
