@@ -1,10 +1,10 @@
 {
-  "id": "Ebook-1.0.0",
+  "id": "ebook-6.0.0",
   "name": "Okapi test module",
   "provides": [
     {
-      "id": "Ebook",
-      "version": "1.0",
+      "id": "test-basic",
+      "version": "6.0",
       "handlers": [
         {
           "methods": [ "GET", "POST" ],
@@ -15,6 +15,6 @@
   ],
   "requires": [],
   "launchDescriptor": {
-    "exec": "java -Dport=%p -jar Ebook/target/Ebook-fat.jar"
+    "dockerImage": "ebook-module"
   }
 }
